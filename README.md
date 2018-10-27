@@ -1,4 +1,4 @@
-For Newbies With Windows 10
+For Newbies With Windows 10 WSL Ubuntu
 
 1) Go to Microsoft Store https://microsoft.aka.WSL install Ubuntu 
  
