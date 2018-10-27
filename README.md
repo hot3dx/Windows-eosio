@@ -1,3 +1,41 @@
+For Newbies With Windows 10
+
+1) Go to Microsoft Store https://microsoft.aka.WSL install Ubuntu 
+ 
+2) Download and Install GitHubDeskTop 
+ 
+ 
+3) Right click Ubuntu and choose More, Choose run as adminstrator
+ 
+4) Go to the directory where you want to install EOSIO by at the prompt in Unbuntu Bash Shell
+ 
+ cd /mnt/c/Users/your home Users directory/eosio [Enter]
+ 
+ git clone https://github.com/EOSIO/eos --recursive [Enter]
+  This will take some time!
+ 
+ 5) at the propmpt in Ubuntu
+     ./eosio_build ubuntu full [Enter]
+     
+     This will begin to run and install everything EOSIO needs!
+     It will take 18-24 hours!
+     
+ 6) After the Huge EOSIO screen shows up at the command prompt
+ These commands can also be copy and pasted one at a time from below the big EOSIO to the command promot:
+     a) export PATH=${HOME}/opt/mongodb/bin:${PATH}
+     b) ${HOME}/opt/mongodb/bin/mongod -f ${HOME}/opt/mongodb/mongod.conf [Enter]
+        1) It might be necessary to create mongod.conf
+        2) nano ${HOME}/opt/mongodb/mongod.conf [Enter]
+     c)${HOME}/your directory/build; make test [Enter]
+     d) tests will run and take awhile!
+ 
+ 7) sudo make install
+     
+ 
+
+
+
+
 # EOSIO - The Most Powerful Infrastructure for Decentralized Applications
 
 [![Build status](https://badge.buildkite.com/370fe5c79410f7d695e4e34c500b4e86e3ac021c6b1f739e20.svg?branch=master)](https://buildkite.com/EOSIO/eosio)
