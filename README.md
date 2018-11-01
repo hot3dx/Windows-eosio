@@ -1,5 +1,10 @@
 For Newbies With Windows 10 WSL Ubuntu
 
+It might be good to look at this article on EOSIO by me:
+https://trybe.one/eosio-for-windows-10-newbies-on-ubuntu-bionic-18-04-ubuntu-terminal1of/
+
+Why sign up for trybe.one http://trybe.one/ref/5301/
+
 1) Go to Microsoft Store https://microsoft.aka.WSL install Ubuntu 
  
 2) Download and Install GitHubDeskTop 
