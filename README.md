@@ -129,6 +129,6 @@ Instructions detailing the process of getting the software, building it, running
 
 # EOS Donations Accepted:
 # Address: coinbasebase 
-# EOS Memo: 1795833054
+# EOS Memo: 97483258
 
 
